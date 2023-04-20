@@ -4,7 +4,7 @@ package array;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class InverseOfAnArray {
     public static void display(int[] a) {
         StringBuilder sb = new StringBuilder();
 
@@ -23,7 +23,7 @@ public class Main {
         return in;
     }
 
-    public static void InverseOfAnArray(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
